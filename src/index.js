@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Redux from 'redux'
+import store from './redux/reducer/root_reducer'
+import PlainTextHtml from './components/plainHtml/index';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <PlainTextHtml />
   </React.StrictMode>,
   document.getElementById('root')
 );
